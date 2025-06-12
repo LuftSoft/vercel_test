@@ -59,6 +59,9 @@ export default function RootLayout({
       </head>
       <body
         className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
+        style={{
+          backgroundImage: "linear-gradient(to top right, #ee9ca7, #ffdde1)",
+        }}
       >
         <ThemeSwitcher />
         <div className="min-h-screen">{children}</div>
